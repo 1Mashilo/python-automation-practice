@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return f"<p>Hello from Python + Docker + Jenkins at {time.asctime()}!</p>"
+    return f"<p>Hello from Python + Docker + github Action + AWS at {time.asctime()}!</p>"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
